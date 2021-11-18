@@ -1,0 +1,10 @@
+[
+  {
+    "name": "GCC 10.2.1 xpack",
+    "compilers": {
+      "C": "${workspaceFolder}/xpacks/.bin/arm-none-eabi-gcc",
+      "CXX": "${workspaceFolder}/xpacks/.bin/arm-none-eabi-g++",
+      "ASM": "${workspaceFolder}/xpacks/.bin/arm-none-eabi-as"
+    }
+  }
+]

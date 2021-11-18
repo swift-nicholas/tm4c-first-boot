@@ -1,0 +1,36 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "cortex-debug",
+            "request": "launch",
+            "name": "Debug (OpenOCD)",
+            "servertype": "openocd",
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": "xPack: build Debug",
+            "runToMain": false,
+            "executable": "${workspaceFolder}/build/debug/first-boot.elf",
+            "device": "tm4c129encpdt",
+            "svdFile": "${workspaceFolder}/.vscode/tm4c129x-vendor.xml",
+            "configFiles": [
+                "${workspaceFolder}/xpacks/xpack-dev-tools-openocd/.content/scripts/board/ti_ek-tm4c1294xl.cfg",
+            ],
+            "preRestartCommands": [
+                "file ./build/debug/first-boot.elf",
+                "load",
+                "add-symbol-file ./build/debug/first-boot.elf",
+                "enable breakpoint",
+                "monitor reset"
+              ]
+            // "swoConfig": {
+            //     "enabled": true,
+            //     "cpuFrequency": 8000000,
+            //     "swoFrequency": 2000000,
+            //     "source": "probe",
+            //     "decoders": [
+            //         { "type": "console", "label": "ITM", "port": 0 }
+            //     ]
+            // }
+        }
+    ]
+}

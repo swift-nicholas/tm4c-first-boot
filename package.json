@@ -1,0 +1,104 @@
+{
+  "name": "@swift-nicholas/tm4c-first-boot",
+  "version": "0.0.1",
+  "description": "A learning project for my first relocatable bootloader written in GNU C compiled with GCC.",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.jupiter.planets.swiftperformance.com:swift-nicholas/tm4c-first-boot.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.jupiter.planets.swiftperformance.com/swift-nicholas/tm4c-first-boot/issues"
+  },
+  "homepage": "https://gitlab.jupiter.planets.swiftperformance.com/swift-nicholas/tm4c-first-boot",
+  "keywords": [
+    "xpack"
+  ],
+  "author": {
+    "name": "Nicholas Jackson",
+    "email": "nicholas@swiftperformance.com",
+    "url": "https://github.com/swift-nicholas/"
+  },
+  "contributors": [
+    {
+      "name": "Nicholas Jackson",
+      "email": "nicholas@swiftperformance.com",
+      "url": "https://github.com/swift-nicholas/"
+    }
+  ],
+  "private": true,
+  "license": "PRIVATE",
+  "config": {},
+  "dependencies": {},
+  "devDependencies": {
+    "@xpack-dev-tools/cmake": "3.19.8-1.1",
+    "@xpack-dev-tools/ninja-build": "1.10.2-3.1",
+    "@xpack-dev-tools/arm-none-eabi-gcc": "10.2.1-1.1.2",
+    "@xpack-dev-tools/openocd": "0.11.0-1.1"
+  },
+  "xpack": {
+    "minimumXpmRequired": "0.10.2",
+    "properties": {
+      "buildFolderRelativePath": "{{ 'build' | path_join: configuration.name | to_filename | downcase }}",
+      "toolchainFileName": "",
+      "commandPrepare": "cmake -S . -B {{ properties.buildFolderRelativePath }} -G Unix\\ Makefiles -DTIVA_VARIANT=tm4c129encpdt -DADD_GRAPHICS:BOOL=OFF -D CMAKE_BUILD_TYPE={{ properties.buildType }} -D CMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_C_COMPILER:FILEPATH=arm-none-eabi-gcc -DCMAKE_CXX_COMPILER:FILEPATH=arm-none-eabi-g++ -DCMAKE_ASM_COMPILER:FILEPATH=arm-none-eabi-as",
+      "commandPrepareWithToolchain": "{{ properties.commandPrepare }}",
+      "commandReconfigure": "{{ properties.commandPrepare }}",
+      "commandBuild": "cmake --build {{ properties.buildFolderRelativePath }} --verbose",
+      "commandClean": "cmake --build {{ properties.buildFolderRelativePath }} --target clean",
+      "commandFlash": "openocd -f board/ti_ek-tm4c1294xl.cfg -c \"program {{properties.buildFolderRelativePath}}/first-boot.elf reset exit\""
+    },
+    "actions": {
+      "prepare-all": [
+        "xpm run prepare --config Debug",
+        "xpm run prepare --config Release"
+      ],
+      "build-all": [
+        "xpm run build --config Debug",
+        "xpm run build --config Release"
+      ],
+      "clean-all": [
+        "xpm run clean --config Debug",
+        "xpm run clean --config Release"
+      ],
+      "test": [
+        "xpm run prepare-all",
+        "xpm run build-all",
+        "xpm run execute-all"
+      ]
+    },
+    "buildConfigurations": {
+      "Debug": {
+        "properties": {
+          "buildType": "Debug"
+        },
+        "actions": {
+          "prepare": "{{ properties.commandPrepareWithToolchain }}",
+          "build": [
+            "{{ properties.commandReconfigure }}",
+            "{{ properties.commandBuild }}"
+          ],
+          "clean": "{{ properties.commandClean }}",
+          "flash": "{{ properties.commandFlash }}"
+        }
+      },
+      "Release": {
+        "properties": {
+          "buildType": "Release"
+        },
+        "actions": {
+          "prepare": "{{ properties.commandPrepareWithToolchain }}",
+          "build": [
+            "{{ properties.commandReconfigure }}",
+            "{{ properties.commandBuild }}"
+          ],
+          "clean": "{{ properties.commandClean }}",
+          "flash": "{{ properties.commandFlash }}"
+        }
+      }
+    }
+  }
+}

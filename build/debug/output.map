@@ -1,0 +1,273 @@
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crti.o
+ .data          0x0000000000000000        0x0 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crti.o
+ .bss           0x0000000000000000        0x0 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crti.o
+ .text          0x0000000000000000        0x0 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .data          0x0000000000000000        0x0 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .bss           0x0000000000000000        0x0 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .rodata.all_implied_fbits
+                0x0000000000000000       0x24 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .fini_array    0x0000000000000000        0x4 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .data.__dso_handle
+                0x0000000000000000        0x4 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text.__do_global_dtors_aux
+                0x0000000000000000       0x24 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .bss.completed.1
+                0x0000000000000000        0x1 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text          0x0000000000000000       0x7c /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .data          0x0000000000000000        0x0 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .bss           0x0000000000000000        0x0 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.extab     0x0000000000000000        0x0 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.exidx     0x0000000000000000       0x10 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.attributes
+                0x0000000000000000       0x1c /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .group         0x0000000000000000        0xc CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+ .text          0x0000000000000000        0x0 CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+ .data          0x0000000000000000        0x0 CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+ .bss           0x0000000000000000        0x0 CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/application.dir/src/main.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/application.dir/src/main.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/application.dir/src/main.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/application.dir/src/main.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/application.dir/src/main.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/application.dir/src/main.c.o
+ .group         0x0000000000000000        0xc CMakeFiles/application.dir/src/main.c.o
+ .text          0x0000000000000000        0x0 CMakeFiles/application.dir/src/main.c.o
+ .data          0x0000000000000000        0x0 CMakeFiles/application.dir/src/main.c.o
+ .bss           0x0000000000000000        0x0 CMakeFiles/application.dir/src/main.c.o
+ .debug_macro   0x0000000000000000      0xa7e CMakeFiles/application.dir/src/main.c.o
+ .debug_macro   0x0000000000000000       0x22 CMakeFiles/application.dir/src/main.c.o
+ .debug_macro   0x0000000000000000       0x8e CMakeFiles/application.dir/src/main.c.o
+ .debug_macro   0x0000000000000000       0x51 CMakeFiles/application.dir/src/main.c.o
+ .debug_macro   0x0000000000000000      0x103 CMakeFiles/application.dir/src/main.c.o
+ .debug_macro   0x0000000000000000       0x6a CMakeFiles/application.dir/src/main.c.o
+ .debug_macro   0x0000000000000000      0x1df CMakeFiles/application.dir/src/main.c.o
+ .text          0x0000000000000000        0x0 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .data          0x0000000000000000        0x0 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .bss           0x0000000000000000        0x0 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .rodata.all_implied_fbits
+                0x0000000000000000       0x24 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .eh_frame      0x0000000000000000        0x4 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .ARM.attributes
+                0x0000000000000000       0x32 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .text          0x0000000000000000        0x0 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtn.o
+ .data          0x0000000000000000        0x0 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtn.o
+ .bss           0x0000000000000000        0x0 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtn.o
+ .init          0x0000000000000000        0x8 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtn.o
+ .fini          0x0000000000000000        0x8 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtn.o
+ .ARM.attributes
+                0x0000000000000000       0x1e /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000000000000 0x0000000000100000 xr
+SRAM             0x0000000020000000 0x0000000000040000 xw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crti.o
+LOAD /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+LOAD /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+LOAD CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+LOAD CMakeFiles/application.dir/src/main.c.o
+LOAD /home/nicholas/opt/ti/tivaware/SW-TM4C-2.2.0.295/driverlib/gcc/libdriver.a
+START GROUP
+LOAD /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a
+END GROUP
+LOAD /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtend.o
+LOAD /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtn.o
+                0x0000000000000100                METADATA_SIZE = 0x100
+                0x0000000000004000                BOOTLOADER_SIZE = 0x4000
+                0x0000000000004000                RECOVERY_SIZE = 0x4000
+                0x0000000000000000                PROVIDE (_intvecs_base_address = 0x0)
+
+.intvecs        0x0000000000000000      0x208
+ *(.intvecs)
+ .intvecs       0x0000000000000000      0x208 CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+                0x0000000000000000                g_pfnVectors
+
+.text           0x0000000000000208       0xf0
+ CREATE_OBJECT_SYMBOLS
+ *(.text)
+ *(.text.*)
+ .text.frame_dummy
+                0x0000000000000208       0x1c /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text.ResetISR
+                0x0000000000000224       0x80 CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+                0x0000000000000224                ResetISR
+ .text.NmiSR    0x00000000000002a4        0x6 CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+ .text.FaultISR
+                0x00000000000002aa        0x6 CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+ .text.IntDefaultHandler
+                0x00000000000002b0        0x6 CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+ .text.start_app
+                0x00000000000002b6        0x8 CMakeFiles/application.dir/src/main.c.o
+ *fill*         0x00000000000002be        0x2 
+ .text.main     0x00000000000002c0       0x2c CMakeFiles/application.dir/src/main.c.o
+                0x00000000000002c0                main
+                0x00000000000002ec                . = ALIGN (0x4)
+ *(.ctors)
+                0x00000000000002ec                . = ALIGN (0x4)
+ *(.dtors)
+                0x00000000000002ec                . = ALIGN (0x4)
+                0x00000000000002ec                __init_array_start = .
+ *(.init_array*)
+ .init_array    0x00000000000002ec        0x4 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x00000000000002f0                __init_array_end = .
+ *(.init)
+ .init          0x00000000000002f0        0x4 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crti.o
+                0x00000000000002f0                _init
+ *(.fini*)
+ .fini          0x00000000000002f4        0x4 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crti.o
+                0x00000000000002f4                _fini
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+
+.glue_7         0x00000000000002f8        0x0
+ .glue_7        0x00000000000002f8        0x0 linker stubs
+
+.glue_7t        0x00000000000002f8        0x0
+ .glue_7t       0x00000000000002f8        0x0 linker stubs
+
+.vfp11_veneer   0x00000000000002f8        0x0
+ .vfp11_veneer  0x00000000000002f8        0x0 linker stubs
+
+.v4_bx          0x00000000000002f8        0x0
+ .v4_bx         0x00000000000002f8        0x0 linker stubs
+
+.iplt           0x00000000000002f8        0x0
+ .iplt          0x00000000000002f8        0x0 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.rodata
+ *(.rodata)
+ *(.rodata*)
+
+.eh_frame       0x00000000000002f8        0x0
+ .eh_frame      0x00000000000002f8        0x0 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.rel.dyn        0x00000000000002f8        0x0
+ .rel.iplt      0x00000000000002f8        0x0 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.data           0x0000000020000000        0x0 load address 0x00000000000002f8
+                0x00000000000002f8                __data_load__ = LOADADDR (.data)
+                0x0000000020000000                __data_start__ = .
+ *(.data)
+ *(.data*)
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                __data_end__ = .
+
+.igot.plt       0x0000000020000000        0x0 load address 0x00000000000002f8
+ .igot.plt      0x0000000020000000        0x0 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.bootloader     0x00000000000002f8     0x4000
+                0x00000000000002f8                __bootloader_addr__ = LOADADDR (.bootloader)
+                0x00000000000002f8                __bootloader_start__ = .
+                0x00000000000042f8                . = (. + BOOTLOADER_SIZE)
+ *fill*         0x00000000000002f8     0x4000 
+                0x00000000000042f8                __bootloader_end__ = .
+
+.ARM.exidx      0x00000000000042f8        0x0
+                0x00000000000042f8                __exidx_start = .
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00000000000042f8                __exidx_end = .
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.bss            0x0000000020000000       0x18
+                0x0000000020000000                __bss_start__ = .
+ *(.shbss)
+ *(.bss)
+ *(.bss.*)
+ .bss.object.0  0x0000000020000000       0x18 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ *(COMMON)
+                0x0000000020000018                . = ALIGN (0x4)
+                0x0000000020000018                __bss_end__ = .
+
+.heap           0x0000000020000018        0x0
+                0x0000000020000018                __heap_start__ = .
+                0x0000000020000018                end = __heap_start__
+                0x0000000020000018                _end = end
+                0x0000000020000018                __end = end
+ *(.heap)
+                0x0000000020000018                __heap_end__ = .
+                0x0000000020000018                __HeapLimit = __heap_end__
+
+.stack          0x0000000020000018      0x200
+                0x0000000020000018                _stack = .
+                0x0000000020000018                __stack = .
+ *(.stack)
+ .stack         0x0000000020000018      0x200 CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+OUTPUT(first-boot.elf elf32-littlearm)
+LOAD linker stubs
+
+.ARM.attributes
+                0x0000000000000000       0x30
+ .ARM.attributes
+                0x0000000000000000       0x1e /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crti.o
+ .ARM.attributes
+                0x000000000000001e       0x34 /home/nicholas/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .ARM.attributes
+                0x0000000000000052       0x34 CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+ .ARM.attributes
+                0x0000000000000086       0x34 CMakeFiles/application.dir/src/main.c.o
+
+.comment        0x0000000000000000       0x44
+ .comment       0x0000000000000000       0x44 CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+                                         0x45 (size before relaxing)
+ .comment       0x0000000000000044       0x45 CMakeFiles/application.dir/src/main.c.o
+
+.debug_info     0x0000000000000000      0x286
+ .debug_info    0x0000000000000000      0x177 CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+ .debug_info    0x0000000000000177      0x10f CMakeFiles/application.dir/src/main.c.o
+
+.debug_abbrev   0x0000000000000000      0x191
+ .debug_abbrev  0x0000000000000000       0xe1 CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+ .debug_abbrev  0x00000000000000e1       0xb0 CMakeFiles/application.dir/src/main.c.o
+
+.debug_aranges  0x0000000000000000       0x60
+ .debug_aranges
+                0x0000000000000000       0x38 CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+ .debug_aranges
+                0x0000000000000038       0x28 CMakeFiles/application.dir/src/main.c.o
+
+.debug_ranges   0x0000000000000000       0x40
+ .debug_ranges  0x0000000000000000       0x28 CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+ .debug_ranges  0x0000000000000028       0x18 CMakeFiles/application.dir/src/main.c.o
+
+.debug_macro    0x0000000000000000      0xfa1
+ .debug_macro   0x0000000000000000       0x69 CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+ .debug_macro   0x0000000000000069      0xa7e CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+ .debug_macro   0x0000000000000ae7       0x22 CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+ .debug_macro   0x0000000000000b09       0x8e CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+ .debug_macro   0x0000000000000b97       0x51 CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+ .debug_macro   0x0000000000000be8      0x103 CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+ .debug_macro   0x0000000000000ceb       0x6a CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+ .debug_macro   0x0000000000000d55      0x1df CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+ .debug_macro   0x0000000000000f34       0x6d CMakeFiles/application.dir/src/main.c.o
+
+.debug_line     0x0000000000000000      0x647
+ .debug_line    0x0000000000000000      0x338 CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+ .debug_line    0x0000000000000338      0x30f CMakeFiles/application.dir/src/main.c.o
+
+.debug_str      0x0000000000000000     0x3c17
+ .debug_str     0x0000000000000000     0x3b8c CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+                                       0x3cf0 (size before relaxing)
+ .debug_str     0x0000000000003b8c       0x8b CMakeFiles/application.dir/src/main.c.o
+                                       0x3c84 (size before relaxing)
+
+.debug_frame    0x0000000000000000       0xc0
+ .debug_frame   0x0000000000000000       0x7c CMakeFiles/application.dir/src/tm4c129encpdt_startup_gcc.c.o
+ .debug_frame   0x000000000000007c       0x44 CMakeFiles/application.dir/src/main.c.o

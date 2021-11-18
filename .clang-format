@@ -1,0 +1,9 @@
+BasedOnStyle: Google
+Language: Cpp
+ColumnLimit: 100
+AlignEscapedNewlines: Left
+AlignTrailingComments: false
+AlwaysBreakAfterReturnType: None
+PointerAlignment: Left
+SortIncludes: false
+Standard: c++17

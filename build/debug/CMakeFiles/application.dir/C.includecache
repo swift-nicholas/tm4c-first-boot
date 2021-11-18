@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../include/memory_map.h
+
+/home/nicholas/development/swift/tm4c-first-boot/src/main.c
+stdint.h
+-
+memory_map.h
+/home/nicholas/development/swift/tm4c-first-boot/src/memory_map.h
+

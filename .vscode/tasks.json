@@ -1,0 +1,61 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "clean",
+			"detail": "Remove cmake files.",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceRoot}"
+			},
+			"command": "rm -r build"
+		},
+		{
+			"type": "xPack",
+			"xpmCommand": "install",
+			"problemMatcher": [],
+			"label": "xPack: install dependencies",
+			"detail": "xpm install"
+		},
+		{
+			"type": "xPack",
+			"actionName": "build",
+			"buildConfigurationName": "Debug",
+			"problemMatcher": [],
+			"label": "xPack: build Debug",
+			"detail": "xpm run build --config Debug",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "xPack",
+			"actionName": "prepare",
+			"buildConfigurationName": "Debug",
+			"problemMatcher": [],
+			"label": "xPack: prepare Debug",
+			"detail": "xpm run prepare --config Debug"
+		},
+		{
+			"type": "xPack",
+			"actionName": "build",
+			"buildConfigurationName": "Release",
+			"problemMatcher": [],
+			"label": "xPack: build Release",
+			"detail": "xpm run build --config Release",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			}
+		},
+		{
+			"type": "xPack",
+			"actionName": "flash",
+			"buildConfigurationName": "Debug",
+			"problemMatcher": [],
+			"label": "xPack: flash Debug",
+			"detail": "xpm run flash --config Debug"
+		}
+	]
+}
