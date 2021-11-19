@@ -20,11 +20,20 @@ SECTIONS
         *(.rodata)
         *(.rodata*)
         . = ALIGN(0x4);
-    } > BOOTFLASH
+    } > SRAM AT> BOOTFLASH
 
     PROVIDE (__etext = .);
     PROVIDE (_etext = .);
     PROVIDE (etext = .);
+
+    .data : ALIGN (4) {
+        __data_load__ = LOADADDR (.data);
+        __data_start__ = .;
+        *(.data)
+        *(.data*)
+        . = ALIGN (4);
+        __data_end__ = .;
+    } > SRAM AT> BOOTFLASH
 
     .bss : {
         __bss_start__ = .;
@@ -35,13 +44,4 @@ SECTIONS
         . = ALIGN (4);
         __bss_end__ = .;
     } > SRAM
-
-    .data : ALIGN (4) {
-        __data_load__ = LOADADDR (.data);
-        __data_start__ = .;
-        *(.data)
-        *(.data*)
-        . = ALIGN (4);
-        __data_end__ = .;
-    } > SRAM AT> BOOTFLASH
 }

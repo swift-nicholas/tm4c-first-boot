@@ -243,36 +243,50 @@ void ResetISR(void) {
   HWREG(0xE000ED88) = ((HWREG(0xE000ED88) & ~0x00F00000) | 0x00F00000);
 
   /* Copy application from flash to sram. */
-  __asm(
-      "   movs    r0, #0x0000\n"
-      "   movs    r1, #0x0000\n"
-      "   movt    r1, #0x2000\n"
-      "   ldr     r2, =__bss_start__\n"
-      "copy_loop:\n"
-      "    ldr     r3, [r0], #4\n"
-      "    str     r3, [r1], #4\n"
-      "    cmp     r1, r2\n"
-      "    blt     copy_loop\n");
+  // __asm(
+  //     "   movs    r0, #0x0000\n"
+  //     "   movs    r1, #0x0000\n"
+  //     "   movt    r1, #0x2000\n"
+  //     "   ldr     r2, =__bss_start__\n"
+  //     "copy_loop:\n"
+  //     "    ldr     r3, [r0], #4\n"
+  //     "    str     r3, [r1], #4\n"
+  //     "    cmp     r1, r2\n"
+  //     "    blt     copy_loop\n");
 
   uint32_t *pui32Src, *pui32Dest;
 
   /* Copy the data segment initializers from flash to SRAM. */
-  pui32Src = &__data_load__;
-  for (pui32Dest = &__data_start__; pui32Dest < &__data_end__;) {
-    *pui32Dest++ = *pui32Src++;
-  }
+  // pui32Src = &__data_load__;
+  // pui32Src = 0x0;
+
+  // for (pui32Dest = 0x20000000; pui32Dest < &__bss_start__;) {
+  //   *pui32Dest++ = *pui32Src++;
+  // }
+
+  /* Set the vector table base address */
+  uint32_t *vector_table = (uint32_t *)0x20000000;
+  uint32_t *vtor = (uint32_t *)0xE000ED08;
+  *vtor = ((uint32_t)vector_table & 0xFFFFFFF8);
 
   /* Zero fill the bss segment. */
+  // __asm(
+  //     "    ldr     r0, =__bss_start__\n"
+  //     "    ldr     r1, =__bss_end__\n"
+  //     "    mov     r2, #0\n"
+  //     "    .thumb_func\n"
+  //     "zero_loop:\n"
+  //     "        cmp     r0, r1\n"
+  //     "        it      lt\n"
+  //     "        strlt   r2, [r0], #4\n"
+  //     "        blt     zero_loop");
+
+  //
+
   __asm(
-      "    ldr     r0, =__bss_start__\n"
-      "    ldr     r1, =__bss_end__\n"
-      "    mov     r2, #0\n"
-      "    .thumb_func\n"
-      "zero_loop:\n"
-      "        cmp     r0, r1\n"
-      "        it      lt\n"
-      "        strlt   r2, [r0], #4\n"
-      "        blt     zero_loop");
+      " movs    lr, #0x0004\n"
+      " movt    lr, #0x2000\n"
+      " bx      lr");
 
   /* Call the application's entry point. */
   main();
