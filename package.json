@@ -49,7 +49,9 @@
       "commandReconfigure": "{{ properties.commandPrepare }}",
       "commandBuild": "cmake --build {{ properties.buildFolderRelativePath }} --verbose",
       "commandClean": "cmake --build {{ properties.buildFolderRelativePath }} --target clean",
-      "commandFlash": "openocd -f board/ti_ek-tm4c1294xl.cfg -c \"program {{properties.buildFolderRelativePath}}/first-boot.elf reset exit\""
+      "commandFlash": "openocd -f board/ti_ek-tm4c1294xl.cfg -c \"program {{properties.buildFolderRelativePath}}/bootloader.elf reset exit\"",
+      "copyType": "binary",
+      "commandCopy": "arm-none-eabi-objcopy --pad-to=0x8000 --gap-fill=0xFF -O {{properties.copyType}} {{properties.buildFolderRelativePath}}/bootloader.elf {{properties.buildFolderRelativePath}}/bootloader.bin"
     },
     "actions": {
       "prepare-all": [
@@ -82,6 +84,7 @@
             "{{ properties.commandBuild }}"
           ],
           "clean": "{{ properties.commandClean }}",
+          "copy": "{{ properties.commandCopy }}",
           "flash": "{{ properties.commandFlash }}"
         }
       },
@@ -96,6 +99,7 @@
             "{{ properties.commandBuild }}"
           ],
           "clean": "{{ properties.commandClean }}",
+          "copy": "{{ properties.commandCopy }}",
           "flash": "{{ properties.commandFlash }}"
         }
       }
