@@ -1,4 +1,0 @@
-/home/nicholas/development/swift/tm4c-first-boot/build/debug/CMakeFiles/rebuild_cache.dir
-/home/nicholas/development/swift/tm4c-first-boot/build/debug/CMakeFiles/edit_cache.dir
-/home/nicholas/development/swift/tm4c-first-boot/build/debug/CMakeFiles/sign.dir
-/home/nicholas/development/swift/tm4c-first-boot/build/debug/CMakeFiles/application.dir
