@@ -5,7 +5,9 @@
         "application.h": "c",
         "app.h": "c",
         "host_uart.h": "c",
-        "memory_map.h": "c"
+        "memory_map.h": "c",
+        "hw_memmap.h": "c",
+        "bitset": "c"
     },
     "editor.defaultFormatter": "ms-vscode.cpptools",
     "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyFunction": true,
@@ -26,5 +28,6 @@
     "cmake.buildTask": false,
     "cortex-debug.openocdPath": "${workspaceFolder}/xpacks/.bin/openocd",
     "cortex-debug.gdbPath": "${workspaceFolder}/xpacks/.bin/arm-none-eabi-gdb",
-    "cortex-debug.registerUseNaturalFormat": false
+    "cortex-debug.registerUseNaturalFormat": false,
+    "cortex-debug.variableUseNaturalFormat": false
 }

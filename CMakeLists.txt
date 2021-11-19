@@ -43,7 +43,7 @@ set(CMAKE_ASM_COMPILER_WORKS 1)
 # -----------------------------------------------------------------------------
 # Project configuration
 
-project(first-boot
+project(bootloader
         DESCRIPTION "A lightweight bootloader and application launcher for tm4c129x processors"
         VERSION 0.0.1)
 

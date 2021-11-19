@@ -30,4 +30,4 @@ add_definitions(-DTARGET_IS_SNOWFLAKE_RA1)
 message(STATUS "Adding definitions -DPART_TM4C129ENCPDT -DTARGET_IS_TM4C129_RA1 -DTARGET_IS_SNOWFLAKE_RA1")
 
 # Add linker flags
-add_link_options(-T${PROJECT_SOURCE_DIR}/tm4c129encpdt.ld -specs=${PROJECT_SOURCE_DIR}/tm4c129x.specs -Xlinker -Map=output.map)
+add_link_options(-T${PROJECT_SOURCE_DIR}/bootloader.ld -specs=${PROJECT_SOURCE_DIR}/tm4c129x.specs -Xlinker -Map=output.map)

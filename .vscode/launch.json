@@ -9,16 +9,16 @@
             "cwd": "${workspaceRoot}",
             "preLaunchTask": "xPack: build Debug",
             "runToMain": false,
-            "executable": "${workspaceFolder}/build/debug/first-boot.elf",
+            "executable": "${workspaceFolder}/build/debug/bootloader.elf",
             "device": "tm4c129encpdt",
             "svdFile": "${workspaceFolder}/.vscode/tm4c129x-vendor.xml",
             "configFiles": [
                 "${workspaceFolder}/xpacks/xpack-dev-tools-openocd/.content/scripts/board/ti_ek-tm4c1294xl.cfg",
             ],
             "preRestartCommands": [
-                "file ./build/debug/first-boot.elf",
+                "file ./build/debug/bootloader.elf",
                 "load",
-                "add-symbol-file ./build/debug/first-boot.elf",
+                "add-symbol-file ./build/debug/bootloader.elf",
                 "enable breakpoint",
                 "monitor reset"
               ]
